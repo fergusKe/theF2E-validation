@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class Step3 extends Component {
   render() {
@@ -69,7 +70,9 @@ class Step3 extends Component {
           <div className="row">
             <div className="col-12">
               <div className="form-group">
-                <button type="submit" className="btn btn-primary form-control warn">SUBMIT & NEXT</button>
+                <Link to="/step4">
+                  <button type="submit" className="btn btn-primary form-control warn">SUBMIT & NEXT</button>
+                </Link>
               </div>
             </div>
           </div>
